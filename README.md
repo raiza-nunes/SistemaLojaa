@@ -1,3 +1,23 @@
+##  Versão Monolítica
+
+Nesta versão, todo o código está concentrado em uma única classe (`SistemaLojaMonolitico`), incluindo:
+- Entrada de dados
+- Processamento
+- Saída de dados
+
+Isso dificulta manutenção e reutilização.
+
+---
+
+##  Versão Modularizada
+
+Nesta versão, o sistema foi dividido em classes:
+
+- `Produto` → representa os dados
+- `CalculadoraService` → regras de negócio
+- `Main` → execução do sistema
+
+Essa abordagem melhora a organização, manutenção e reutilização do código.
 #  Sistema de Loja em Java
 
 ##  Descrição
